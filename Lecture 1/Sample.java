@@ -1,19 +1,7 @@
-import java.util.Scanner;
 public class Sample
 {
     public static void main(String[] args) 
     {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("");
-        int x = sc.nextInt();
-        if(x%2 == 0)
-        {
-            System.out.println("YES");
-        }
-        else
-        {
-            System.out.println("NO");
-        }
-        sc.close();
+        System.out.println("Hello World");
     }
 }
